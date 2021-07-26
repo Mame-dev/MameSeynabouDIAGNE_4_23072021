@@ -5,24 +5,22 @@
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    src        : url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src        : url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: normal;
-    font-style: normal
+    font-style : normal
 }
 
 .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
+    display       : inline-block;
+    font          : normal normal normal 14px/1 FontAwesome;
+    font-size     : inherit;
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
 }
 
 .fa-lg {
-    font-size: 1.33333333em;
-    line-height: .75em;
+    font-size     : 1.33333333em;
+    line-height   : .75em;
     vertical-align: -15%
 }
 
@@ -43,13 +41,13 @@
 }
 
 .fa-fw {
-    width: 1.28571429em;
+    width     : 1.28571429em;
     text-align: center
 }
 
 .fa-ul {
-    padding-left: 0;
-    margin-left: 2.14285714em;
+    padding-left   : 0;
+    margin-left    : 2.14285714em;
     list-style-type: none
 }
 
@@ -58,10 +56,10 @@
 }
 
 .fa-li {
-    position: absolute;
-    left: -2.14285714em;
-    width: 2.14285714em;
-    top: .14285714em;
+    position  : absolute;
+    left      : -2.14285714em;
+    width     : 2.14285714em;
+    top       : .14285714em;
     text-align: center
 }
 
@@ -70,8 +68,8 @@
 }
 
 .fa-border {
-    padding: .2em .25em .15em;
-    border: solid .08em #eee;
+    padding      : .2em .25em .15em;
+    border       : solid .08em #eee;
     border-radius: .1em
 }
 
@@ -108,69 +106,40 @@
 }
 
 .fa-spin {
-    -webkit-animation: fa-spin 2s infinite linear;
     animation: fa-spin 2s infinite linear
 }
 
 .fa-pulse {
-    -webkit-animation: fa-spin 1s infinite steps(8);
     animation: fa-spin 1s infinite steps(8)
-}
-
-@-webkit-keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
 }
 
 @keyframes fa-spin {
     0% {
-        -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     100% {
-        -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
     }
 }
 
 .fa-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     transform: rotate(90deg)
 }
 
 .fa-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
 .fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
     transform: rotate(270deg)
 }
 
 .fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-    -webkit-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
     transform: scale(-1, 1)
 }
 
 .fa-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-    -webkit-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
     transform: scale(1, -1)
 }
 
@@ -183,19 +152,19 @@
 }
 
 .fa-stack {
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
+    position      : relative;
+    display       : inline-block;
+    width         : 2em;
+    height        : 2em;
+    line-height   : 2em;
     vertical-align: middle
 }
 
 .fa-stack-1x,
 .fa-stack-2x {
-    position: absolute;
-    left: 0;
-    width: 100%;
+    position  : absolute;
+    left      : 0;
+    width     : 100%;
     text-align: center
 }
 
@@ -3024,21 +2993,21 @@
 
 .sr-only {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
+    width   : 1px;
+    height  : 1px;
+    padding : 0;
+    margin  : -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
+    clip    : rect(0, 0, 0, 0);
+    border  : 0
 }
 
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
     position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
+    width   : auto;
+    height  : auto;
+    margin  : 0;
     overflow: visible;
-    clip: auto
+    clip    : auto
 }

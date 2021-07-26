@@ -580,6 +580,7 @@ a[data-lightbox]:hover img {
     left      : 15px;
     right     : 15px;
     bottom    : 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -617,12 +618,12 @@ a[data-lightbox]:hover img {
 
 .next-lightbox {
     padding: 6px 8px 1px 13px;
-    right  : 25px;
+    right  : 10px;
 }
 
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
-    left   : 25px;
+    left   : 10px;
 }
 
 .snapshot-lb .modal-body {
@@ -673,7 +674,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -698,6 +699,14 @@ p {
 .social {
     max-width: 400px;
     margin   : auto auto auto auto;
+}
+
+div .social {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+    margin         : 20px auto;
 }
 
 h2 {
@@ -732,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
+    color: #212121 !important;
 }
 
 .portfolio-thumb {
@@ -771,12 +780,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color           : #F3976C !important;
+    background-color: #1A2137;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color     : #FFFFFF !important;
+    color     : #1F1F1F !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -818,7 +828,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -846,13 +856,17 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+.lien-hidden {
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
