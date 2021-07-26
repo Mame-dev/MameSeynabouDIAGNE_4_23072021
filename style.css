@@ -436,6 +436,7 @@ nav .caret {
 .mg-md {
     margin-top   : 10px;
     margin-bottom: 20px;
+    color        : #141414 !important;
 }
 
 .mg-lg {
@@ -657,6 +658,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color    : #141414 !important;
 }
 
 .hero-bloc-text-sub {
@@ -680,6 +682,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin   : auto auto auto auto;
+    color    : #141414 !important;
 }
 
 .h1 {
@@ -777,11 +780,6 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-}
-
-.tc-white {
-    color           : #F3976C !important;
-    background-color: #1A2137;
 }
 
 .btn-atomic-tangerine {
