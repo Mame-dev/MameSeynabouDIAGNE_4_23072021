@@ -775,7 +775,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: transparent;
 }
 
 .bgc-atomic-tangerine {
@@ -790,6 +790,10 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
     color     : #FFFFFF !important;
+}
+
+.tc-gray {
+    background-color: #A1A1A1;
 }
 
 .ltc-white {
