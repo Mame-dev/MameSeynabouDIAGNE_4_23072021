@@ -459,6 +459,10 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+/*.col-xs-12 q {
+    color: black;
+}*/
+
 button {
     outline: none !important;
 }
