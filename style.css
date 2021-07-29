@@ -459,10 +459,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-/*.col-xs-12 q {
-    color: black;
-}*/
-
 button {
     outline: none !important;
 }
@@ -557,8 +553,9 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
-    opacity            : 0.6;
-    animation-fill-mode: none;
+    opacity                    : 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode        : none;
 }
 
 #lightbox-modal {
@@ -753,6 +750,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin       : 0 auto;
 }
 
 .portfolio-row {
